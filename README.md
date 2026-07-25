@@ -13,7 +13,7 @@ A fine-tuned transformer model that classifies e-commerce product reviews as **P
 
 | App | Prediction |
 |---|---|
-| ![App preview](assets/Preview.png) | ![Sentiment analysis demo](assets/Sentiment-analysis-demo.png) |
+| ![App preview](assets/Preview.png) | ![Sentiment analysis demo](assets/Sentiment-Analysis.png) |
 
 Enter a review and get a live prediction with a calibrated confidence score:
 
