@@ -27,7 +27,7 @@ Enter a review and get a live prediction with a calibrated confidence score:
 - **Honest confidence reporting** - predictions below a configurable confidence threshold are flagged as uncertain instead of being silently overridden by hand-written rules.
 - **Class-imbalance aware training** - the dataset skews positive, so `train.py` computes class weights and applies a weighted cross-entropy loss to keep the minority (negative) class from being drowned out.
 - **Unit tests + CI** - data cleaning and inference logic are covered by `pytest`, run automatically on every push via GitHub Actions.
-- **Dockerized** — one command to build and run the app in a container.
+- **Dockerized** - one command to build and run the app in a container.
 
 ## Project Structure
 
