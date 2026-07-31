@@ -23,7 +23,7 @@ Enter a review and get a live prediction with a calibrated confidence score:
 
 - **Transformer-based classifier** - fine-tunes a Hugging Face model (`distilbert-base-uncased` by default) on labeled review text using the `Trainer` API.
 - **Config via environment variables** - swap the base model, hyperparameters, or model path without touching code (`.env.example` provided).
-- **Shared inference layer** — a single `SentimentPredictor` class is used by the Streamlit app, the CLI, and the tests, so prediction logic lives in exactly one place.
+- **Shared inference layer** - a single `SentimentPredictor` class is used by the Streamlit app, the CLI, and the tests, so prediction logic lives in exactly one place.
 - **Honest confidence reporting** — predictions below a configurable confidence threshold are flagged as uncertain instead of being silently overridden by hand-written rules.
 - **Class-imbalance aware training** — the dataset skews positive, so `train.py` computes class weights and applies a weighted cross-entropy loss to keep the minority (negative) class from being drowned out.
 - **Unit tests + CI** — data cleaning and inference logic are covered by `pytest`, run automatically on every push via GitHub Actions.
