@@ -33,6 +33,8 @@ Enter a review and get a live prediction with a calibrated confidence score:
 - **Unit tests + CI** - data cleaning and inference logic are covered by `pytest`, run automatically on every push via GitHub Actions.
 - **Dockerized** - one command to build and run the app in a container.
 
+---
+
 ## Project Structure
 
 ```
