@@ -9,6 +9,8 @@
 
 A fine-tuned transformer model that classifies e-commerce product reviews as **Positive** or **Negative**, served through a Streamlit UI. Built with a modular, production-style structure: config-driven training, a reusable inference layer, unit tests, CI, and Docker packaging.
 
+---
+
 ## Demo
 
 | App | Prediction |
