@@ -21,6 +21,8 @@ Enter a review and get a live prediction with a calibrated confidence score:
 
 > "The build quality is excellent and it arrived faster than expected — really happy with this purchase" → **Positive (97.32%)**
 
+---
+
 ## Features
 
 - **Transformer-based classifier** - fine-tunes a Hugging Face model (`distilbert-base-uncased` by default) on labeled review text using the `Trainer` API.
