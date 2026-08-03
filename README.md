@@ -142,7 +142,9 @@ Python · PyTorch · Hugging Face Transformers · scikit-learn · Streamlit · p
 ## Author
 
 **Chowdri Furkhan**
+
 GitHub: [@Chowdri-Furkhan07](https://github.com/Chowdri-Furkhan07)
+
 LinkedIn: [chowdri-furkhan](https://linkedin.com/in/chowdri-furkhan/)
 
 ## License
