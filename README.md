@@ -145,6 +145,8 @@ If you swap in your own dataset, keep the same `review_id`, `product`, `rating`,
 
 Python · PyTorch · Hugging Face Transformers · scikit-learn · Streamlit · pytest · Docker · GitHub Actions
 
+---
+
 ## Author
 
 **Chowdri Furkhan**
